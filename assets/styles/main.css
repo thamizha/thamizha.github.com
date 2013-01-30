@@ -1,3 +1,7 @@
+body {
+  background: url(../images/container_bg.png) repeat-x;
+}
+
 .page {
   margin: 0 auto;
 }
@@ -5,4 +9,29 @@
 .navbar .nav {
   float: right;
   margin: 1em;
+}
+
+.project-list {
+  list-style: none;
+}
+  .project-list > li .thumbnail {
+    background: rgba(255,255,255,0.5);
+    height: 200px;
+  }
+
+.hero-unit {
+  background-image: url(../images/bg_intro.jpg);
+  background-color: rgba(0,0,0,0.5);
+  color: #fff;
+  padding: 20px;
+}
+
+.hero-unit .btn {
+  color: #fff;
+  border: 1px solid #6d0019;
+  font-weight: normal;
+  text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+  background: #a90329; /* Old browsers */
+  background: -moz-linear-gradient(top,  #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6+ */
+  background: linear-gradient(top,  #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C */
 }

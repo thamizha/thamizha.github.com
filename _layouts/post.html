@@ -30,20 +30,36 @@
           <!-- Everything you want hidden at 940px or less, place within here -->
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li><a href="about/">About</a></li>
-              <li><a href="projects/">Projects</a></li>
-              <li><a href="community/">Community</a></li>
-              <li><a href="news/">News</a></li>
-              <li><a href="contact/">Contact</a></li>
+              <li><a href="/">Home</a></li>
+              <li><a href="/about/">About</a></li>
+              <li><a href="/projects/">Projects</a></li>
+              <li><a href="/community/">Community</a></li>
+              <li class="active"><a href="/news/">News</a></li>
+              <li><a href="/contact/">Contact</a></li>
             </ul>
           </div>
         </nav>
       </header>
 
-      <div class="content span12">
-        {{ content }}
-      </div><!-- /.content -->
+        <div class="content span8">
+          {{ content }}
+        </div><!-- /.content -->
+
+        <div class="sidebar span4">
+            <form action="http://groups.google.com/group/freetamilcomputing/boxsubscribe">
+                <fieldset>
+                <legend>Join the community</legend>
+                    <label for="emailTxt">Enter your email address</label>
+                    <input type="text" class="input" placeholder="eg: user@thamizha.com" name="email" id="emailTxt">
+                <input type="submit" name="sub" value="Signup to the mailinglist" class="btn">
+                </fieldset>
+            </form>
+            <p class="note">(We promise not to spam you!)</p>
+          <p><a href="http://groups.google.com/group/sample-group">Visit this group</a></p>
+          <div class="download">
+            <a href="http://code.google.com/p/ekalappai/downloads/detail?name=eKalappai-3.1-build-27012013-installer.exe"><img src="/assets/images/download.png" alt="" /></a>
+          </div>
+        </div>
       
       <footer class="span12">
         <p><a href="https://github.com/thamizha/thamizha.github.com#license">Copyleft</a> &copy; 2013 Thamizha.</p>

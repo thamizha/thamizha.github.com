@@ -25,9 +25,12 @@ Chennai Event Details
     <tr>
       <th scope="row">Venue</th>
       <td>
-        TalentSprint,<br />
-        66, Gaudia Mutt Road,<br />
-        Royappettah</td>
+        <address>
+        <strong>TalentSprint</strong><br />
+        66, Gaudia Mutt Road<br />
+        Royappettah
+        </address>
+      </td>
     </tr>
     <tr>
       <th scope="row">Directions</th>
