@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Community Hackathon
+title: eKalappai 3.0 Beta1 released
 tags:
   - tamil
   - software
   - event
-  - eKalappai v3.0   
+  - eKalappai v3.0 Beta1
 ---
 
 eKalappai 3.0 beta1, first beta version for Open-source ekalappai 3.0 series is released in our project code page - <a href="http://code.google.com/p/ekalappai/">http://code.google.com/p/ekalappai/</a>
